@@ -1,0 +1,21 @@
+$iconSpritePath: "../images/glyphicons-halflings.png";
+$iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
+@import "compass";
+
+body {
+  background-color: #fefefd; // Old browsers
+@include filter-gradient(#fefefd, #aebf76, vertical); // IE6-9
+@include background-image(linear-gradient(top, #fefefd 0%,#fefefd 21%,#dce3c4 41%,#fefefd 66%,#aebf76 100%));
+}
+
+.hero-unit {
+    margin: 50px auto 0 auto;
+    width: 330px;
+    background: #0f0;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    color: #000;
+    padding: 0.2em 0;
+}
